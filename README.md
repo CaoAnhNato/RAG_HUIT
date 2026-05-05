@@ -1,5 +1,12 @@
 # HUIT RAG Chatbot - Hệ thống Hỏi đáp Thông minh
 
+<div align="center">
+  <img src="example/image_1.png" alt="Kết quả demo 1" width="45%">
+  <img src="example/image_2.png" alt="Kết quả demo 2" width="45%">
+</div>
+
+---
+
 Dự án xây dựng hệ thống Chatbot sử dụng kỹ thuật **RAG (Retrieval-Augmented Generation)** để hỗ trợ giải đáp thắc mắc dựa trên cơ sở dữ liệu nội bộ của trường (HUIT).
 
 ## 🚀 Tổng quan hệ thống
@@ -31,7 +38,7 @@ Hệ thống được thiết kế với kiến trúc hiện đại, chia làm 2
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/RAG_HUIT.git
+git clone https://github.com/CaoAnhNato/RAG_HUIT.git
 cd RAG_HUIT
 ```
 
@@ -79,13 +86,4 @@ Giao diện người dùng sẽ chạy tại: `http://127.0.0.1:5000`
 
 ---
 
-## 📊 Kết quả thực hiện
-
-Dưới đây là một số hình ảnh demo kết quả của hệ thống:
-
-![Kết quả 1](example/image_1.png)
-
-![Kết quả 2](example/image_2.png)
-
----
 © 2024 Research Team - HUIT
