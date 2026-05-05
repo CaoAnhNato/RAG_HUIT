@@ -1,8 +1,10 @@
-from openai import OpenAI
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 client = OpenAI(
-    api_key="sk-f06c90faf071ccd4d60616e75a8d56d196f8abb8b958d9434ff89844c478003c",
-    base_url="https://llm.chiasegpu.vn/v1"
+    api_key=os.getenv("GEMINI_API_KEY"),
+    base_url=os.getenv("GEMINI_BASE_URL", "https://llm.chiasegpu.vn/v1")
 )
 
 response = client.chat.completions.create(
