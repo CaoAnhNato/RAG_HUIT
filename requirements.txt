@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+redis
+qdrant-client
+llama-index
+llama-parse
+docling
+flask
+python-dotenv
+requests
+rank_bm25
+sentence-transformers
+pydantic
+beautifulsoup4
+playwright
+pytest-playwright
