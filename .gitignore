@@ -27,3 +27,10 @@ ver_1.pptx
 data/
 backend_test.log
 frontend_test.log
+
+# Scripts and Tests to ignore
+test_*.py
+fix_prompt.py
+index_pipeline.py
+plan_chatbot.md
+tests/
