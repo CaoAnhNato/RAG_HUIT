@@ -34,3 +34,6 @@ fix_prompt.py
 index_pipeline.py
 plan_chatbot.md
 tests/
+
+# GitHub internal
+.github/instructions/
