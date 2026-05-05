@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUIT Chatbot - Sổ Tay Sinh Viên</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h2>HUIT Chatbot</h2>
+            <p>Hỗ trợ Sổ tay Sinh viên năm 2020</p>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Messages go here -->
+            <div class="message bot-message">Chào bạn, mình là trợ lý ảo HUIT. Mình có thể giúp gì cho bạn về quy chế, quy định trong Sổ tay sinh viên?</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Nhập câu hỏi của bạn..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

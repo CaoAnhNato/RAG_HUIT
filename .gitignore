@@ -1,0 +1,29 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific
+.agents/
+.pytest_cache/
+HUFI_RAG_Architecture.pptx
+HUFI_RAG_System_Architecture.pptx
+ver_1.pptx
+data/
+backend_test.log
+frontend_test.log
